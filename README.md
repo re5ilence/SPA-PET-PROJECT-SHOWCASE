@@ -1,3 +1,5 @@
+## [Ссылка на Нетлифай](https://sprightly-starburst-42f944.netlify.app/)
+
 ## SPA PET-PROJECT SHOWCASE
 
 ### Функционал и Технологии
