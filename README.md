@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+## SPA PET-PROJECT SHOWCASE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Функционал и Технологии
 
-## Available Scripts
+**React** - Основной фреймворк для создания интерфейса.
 
-In the project directory, you can run:
+**React Router** - Навигация между страницами осуществляется без перезагрузки, включая страницу с формой отправки.  
 
-### `npm start`
+**Валидация формы**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Декларативная валидация через react-hook-form](./assets/screenshots/Screenshot%20from%202025-04-17%2012-06-36.png)
+Декларативная валидация через *react-hook-form*.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**CSS-модули**
 
-### `npm test`
+![Изолированные стили](./assets/screenshots/Screenshot%20from%202025-04-17%2012-10-19.png)
+Изолированные стили.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Поп-ап уведомление**
 
-### `npm run build`
+![Имитация того, что Личный кабинет находится в разработке](./assets/screenshots/Screenshot%20from%202025-04-17%2012-21-11.png)
+Имитация того, что Личный кабинет находится в разработке.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Интерактивный тест на странице *About***
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Подсветка правильных/неправильных ответов](./assets/screenshots/Screenshot%20from%202025-04-17%2012-22-00.png)
+Подсветка правильных/неправильных ответов + символический финальный результат.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Для компонента были использованы:
+- Хуки useState, useEffect
+- Обработчики событий и управление состоянием
+- Таймеры для задержки перехода между вопросами
+- Динамическое отображение данных
 
-### `npm run eject`
+**Мок-сервер (MirageJS) и обращение к нему**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Имитация общения с сервером](./assets/screenshots/Screenshot%20from%202025-04-17%2013-22-38.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Имитация общения с сервером](./assets/screenshots/Screenshot%20from%202025-04-17%2013-21-20.png)
+Имитация общения с сервером: получение ответа, его обработка и размещение на странице.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Декоративные пузырьки для улучшения визуального восприятия** - Для более глубокого погружения.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Компонентный подход**
 
-## Learn More
+**npm**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+Этот проект использует стандартные команды для запуска и разработки по типу *npm start*.
